@@ -521,6 +521,12 @@ input, textarea, keygen, select, button {
   background-image: url("https://storage.googleapis.com/the-site-1341.appspot.com/assets/bgdark4.jpg");
   background-repeat: repeat-y; }
 
+.field {
+  padding: .2em;
+  margin-top: 1em;
+  display: block;
+  width: 80%; }
+
 .container {
   position: relative;
   padding: 1em;
@@ -532,3 +538,72 @@ input, textarea, keygen, select, button {
   Specific Component Styling
   ========================================
 */
+.header {
+  height: 9em; }
+
+.userInfo {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  text-align: center; }
+
+.profilePicHolder {
+  box-sizing: border-box;
+  background-color: #aaa;
+  height: 7em;
+  width: 7em;
+  padding: .5em; }
+
+.profilePicHolder img {
+  object-fit: contain;
+  max-height: 100%;
+  width: 100%; }
+
+.carousel {
+  display: inline-block;
+  width: 100%; }
+
+.profileAlbums {
+  display: inline-block;
+  width: 100%;
+  /*Optional*/
+  overflow: scroll; }
+
+.profileAlbumPic {
+  object-fit: contain;
+  max-height: 100%;
+  width: 100%; }
+
+.albumTile {
+  display: inline-block;
+  background-color: transparent;
+  /*Optional*/
+  height: 6em;
+  width: 6em;
+  margin: .5em; }
+
+.profileSection {
+  position: absolute;
+  padding: 1em;
+  height: 50%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box; }
+
+.filedrop {
+  width: 12em;
+  height: auto;
+  border: 1px;
+  border-style: solid;
+  border-color: #000;
+  display: inline-block;
+  position: relative;
+  cursor: pointer; }
+
+.filedrop img {
+  width: 95%; }
+
+.filedrop p {
+  font-size: 115%;
+  text-align: center;
+  margin: 0.5em; }

@@ -1,6 +1,9 @@
 node_modules/
 
-client/dist/
+server/static/bundle.js
+server/static/styles.css
+server/__pycache__
+server/config.json
 .env
 .idea/
 

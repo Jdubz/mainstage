@@ -30,8 +30,8 @@ module.exports = {
   entry: './client/entry.jsx',
   // webpack output to client/dist/bundle.js
   output: {
-    path: './server/static',
-    publicPath: './server/static',
+    path: './client/dist',
+    publicPath: './client/dist',
     filename: 'bundle.js',
   },
   module: {
